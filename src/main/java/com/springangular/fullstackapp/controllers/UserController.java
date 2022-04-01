@@ -10,6 +10,6 @@ public class UserController {
 
     @GetMapping("/message")
     public String getMessage() {
-        return "Hello World";
+        return "Hello World from primary branch";
     }
 }
